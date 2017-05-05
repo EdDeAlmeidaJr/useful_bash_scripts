@@ -20,3 +20,10 @@ This script allows you to watch Youtube videos with a simple command at the comm
 
 `$ youtube_player.sh <youtube_video_id>`
 
+### youtube_live.sh
+
+This script allows you to stream live direct to youtube, at the command line, by using VLC media player.
+
+`$ youtube_live.sh <youtube_stream_key>`
+
+**IMPORTANT:** After running this script a VLC window will open. You must go to `File -> Streaming` to select your video and audio inputs, then click the "Transmit" button. To stop the streaming, just click the stop button at the VLC player controls' bar.
