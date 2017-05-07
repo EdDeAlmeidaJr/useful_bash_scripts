@@ -4,9 +4,7 @@
 
 #### If you add some interesting script, please create a pull request and I'll be pleased in add it to this collection.
 
-## ==========
-## Youtube
-## ==========
+# Youtube
 
 **IMPORTANT:** For all scripts in this section, consider that in the video https://www.youtube.com/watch?v=GfprFgohWY4, for example, the video id is **GfprFgohWY4**.
 
@@ -34,9 +32,7 @@ This script allows you to stream live direct to youtube, at the command line, by
 
 **IMPORTANT:** After running this script a VLC window will open. You must go to `File -> Streaming` to select your video and audio inputs, then click the "Transmit" button. To stop the streaming, just click the stop button at the VLC player controls' bar.
 
-## ==========
-## Github
-## ==========
+# Github
 
 ### update_projects.sh
 
