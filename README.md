@@ -27,3 +27,11 @@ This script allows you to stream live direct to youtube, at the command line, by
 `$ youtube_live.sh <youtube_stream_key>`
 
 **IMPORTANT:** After running this script a VLC window will open. You must go to `File -> Streaming` to select your video and audio inputs, then click the "Transmit" button. To stop the streaming, just click the stop button at the VLC player controls' bar.
+
+## Github
+
+### update_projects.sh
+
+This script, when activated inside a directory, will visit all subdirectories and test if they are Github repositories. If so it will use `git pull` to update them with the corresponding remote content.
+
+This is useful for those who use to have lots of Github repos cloned in sections of development directory. I have a `~/progs/opensource` directory with more than a hundred projects and I would never have enough time to update them manually.
