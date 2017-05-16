@@ -4,6 +4,26 @@
 
 #### If you add some interesting script, please create a pull request and I'll be pleased in add it to this collection.
 
+# Linux administration
+
+### sanitize_path.rb
+
+This script remove duplicate entries in the $PATH environment variable.
+
+It is common to have duplicate entries because many initialization scripts do things like 
+
+`export PATH=/some/path/to/add:$PATH`
+
+always appending $PATH to the new path, without checking for repetitions.
+
+To use `sanitize_path.rb`, just make sure to add 
+
+```bash
+export PATH=`~/bin/sanitize_path.rb $PATH`
+``` 
+
+as the last line of your last initialization script (.bashrc, .bash_profile, .zshrc or whatever).
+
 # Youtube
 
 **IMPORTANT:** For all scripts in this section, consider that in the video https://www.youtube.com/watch?v=GfprFgohWY4, for example, the video id is **GfprFgohWY4**.
@@ -39,3 +59,9 @@ This script allows you to stream live direct to youtube, at the command line, by
 This script, when activated inside a directory, will visit all subdirectories and test if they are Github repositories. If so it will use `git pull` to update them with the corresponding remote content.
 
 This is useful for those who use to have lots of Github repos cloned in sections of development directory. I have a `~/progs/opensource` directory with more than a hundred projects and I would never have enough time to update them manually.
+
+# Clojure
+
+### lein
+
+This script is essential to Clojure development. To learn more about it, visit [Leiningem](https://leiningen.org/).
